@@ -68,8 +68,8 @@ O data set `marketing_campaign.csv` utilizado em nossa análise apresenta inform
 Para executar os notebooks localmente, certifique-se de:
 
 * Fazer o download do arquivo `marketing_campaign.csv` [neste link do Kaggle](https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis) ou pegar diretamente deste repositório.
-* O arquivo `dataset_cluster.csv` diz respeito ao data set tratado utilizado diretamente nos notebooks `02-analise-perfis.ipynb`, `03-svm.ipynb` e `04-xgboost.ipynb`.
-  * Ele foi obtido após a classificação e tratamento adotados no notebook `01-eda_kmeans.ipynb`.
-* Alterar o caminho nas linhas de código que lêem os data sets em seus respectivos notebooks.
+* Seguindo o notebook `01-eda_kmeans.ipynb`, explorar os dados do data set, realizar a clusterização e obter o data set `dataset_cluster.csv`.
+* O arquivo `dataset_cluster.csv` diz respeito ao data set utilizado diretamente no notebook `02-analise-perfis.ipynb` (onde detalhamos os perfis criados) e nos notebooks `03-svm.ipynb` e `04-xgboost.ipynb`, onde aplicamos nossos modelos de predição.
+* **Atenção:** Lembre-se de alterar o caminho nas linhas de código que lêem os data sets em seus respectivos notebooks.
 
-###### Tags: `python` `data-science` `random-forest` `credit-card` `knn` `decision-tree` `fraud-detection` `gradient-boosting`
+###### Tags: `python` `data-science` `k-means` `svm` `xgboost` `clustering` `perfis` `clientes`
